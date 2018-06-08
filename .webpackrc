@@ -1,8 +1,8 @@
 {
   "extraBabelPlugins": [
-    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
   ],
   "theme": {
-    "primary-color": "#faad14"
+    "@primary-color": "#faad14"
   }
 }

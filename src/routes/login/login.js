@@ -24,7 +24,7 @@ class LoginForm extends Component {
           <div className={loginStyle['inner']}>
         		<div>
         			<h1 className={loginStyle.whiteFont}>Feeling Different Every Moment</h1>
-              <p className={loginStyle.whiteFont}>with color and dot-grid overlay</p>
+              <p className={loginStyle.whiteFont}>with words and mode</p>
         		</div>
         	</div>
           <FormItem>
