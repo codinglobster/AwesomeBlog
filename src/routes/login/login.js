@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
 import { connect } from 'dva';
 import loginStyle from './login.less';
-import Background from './dynamicBackground';
+// import Background from './dynamicBackground';
+import Particles from './particlesBack';
 
 const FormItem = Form.Item;
 
@@ -19,7 +20,8 @@ class LoginForm extends Component {
     const { getFieldDecorator } = this.props.form;
     return (
       <>
-        <Background />
+        {/* <Background /> */}
+        <Particles />
         <Form onSubmit={this.handleSubmit} className={loginStyle['login-form']}>
           <div className={loginStyle['inner']}>
         		<div>

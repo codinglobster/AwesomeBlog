@@ -4,5 +4,12 @@
   ],
   "theme": {
     "@primary-color": "#faad14"
+  },
+  "proxy": {
+      "/api": {
+      "target": "http://localhost:6666/",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api" : "" }
+    }
   }
 }

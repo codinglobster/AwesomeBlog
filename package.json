@@ -12,6 +12,7 @@
     "antd": "^3.6.1",
     "babel-plugin-import": "^1.7.0",
     "dva": "^2.3.0",
+    "particles.js": "^2.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
