@@ -1,8 +1,11 @@
 # AwesomeBlog
-dva2.0+antd3.0+blog demo
+dva2.0 + antd3.0 + blog demo
 
-step
+## step
 
-npm install
+```bash
+$ npm install
 
-npm start
+$ npm start
+
+```
