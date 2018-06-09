@@ -33,14 +33,14 @@ class LoginForm extends Component {
             {getFieldDecorator('userName', {
               rules: [{ required: true, message: 'Please input your username!' }],
             })(
-              <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
+              <Input size="large" placeholder="large size" prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
             )}
           </FormItem>
           <FormItem>
             {getFieldDecorator('password', {
               rules: [{ required: true, message: 'Please input your Password!' }],
             })(
-              <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
+              <Input size="large" placeholder="large size" prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
             )}
           </FormItem>
           <FormItem>
@@ -48,13 +48,13 @@ class LoginForm extends Component {
               valuePropName: 'checked',
               initialValue: true,
             })(
-              <Checkbox className={loginStyle['inner']}>Remember me</Checkbox>
+              <Checkbox>Remember me</Checkbox>
             )}
-            <a className={loginStyle['login-form-forgot'], loginStyle['inner']} href="">Forgot password</a>
-            <Button type="primary" htmlType="submit" className={loginStyle['login-form-button']}>
+            <a className={loginStyle['login-form-forgot']} href="">Forgot password</a>
+            <Button size="large" placeholder="large size" type="primary" htmlType="submit" className={loginStyle['login-form-button']}>
               Log in
             </Button>
-            Or <a href="" className={loginStyle['inner']}>register now!</a>
+            Or <a href="">register now!</a>
           </FormItem>
         </Form>
       </>

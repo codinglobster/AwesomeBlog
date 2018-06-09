@@ -3,7 +3,7 @@
     ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
   ],
   "theme": {
-    "@primary-color": "#faad14"
+    "@primary-color": "#5D8D8C"
   },
   "proxy": {
       "/api": {
